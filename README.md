@@ -1,5 +1,5 @@
 # demo-playwright
-Learning Playwright
+Playwright QA Test for Deel
 
 ## Usage
 
