@@ -3,6 +3,12 @@ Playwright QA Test for Deel
 
 ## Usage
 
+Install Playwright
+
+```
+npm init playwright@latest 
+```
+
 Run tests in aa browser bases
 
 ```
