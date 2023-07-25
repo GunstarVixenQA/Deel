@@ -3,18 +3,22 @@ Learning Playwright
 
 ## Usage
 
+Run tests in aa browser bases
+
+```
+npx playwright test 
+```
+
 Run tests (Chromium, headless mode)
 
 ```
-npx playwright test
+npx playwright test --project=chromium
 ```
 
-Run tests in headed mode
+Run tests in headed mode with Chromium
 
 ```
-HEADLESS=false npx playwright test
+npx playwright test  --project=chromium --headed
 ```
 
-Run tests against custom url (there is a default Prod url, but a custom url allows running against dev environments)
 
-```
